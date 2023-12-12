@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    <style>
+        body {
+            background-color: #222; /* Dark gray background color */
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out; /* Apply the fade-in animation to the body */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0; /* Start with 0 opacity */
+            }
+            to {
+                opacity: 1; /* End with full opacity */
+            }
+        }
+
+        h1 {
+            color: #4CAF50; /* Green text color */
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Result Page</h1>
+
+    <p>Predicted Price: rs <u>{{ result }}</u> lakhs</p>
+
+    <!-- Additional result display or processing can be added here -->
+
+</body>
+</html>
